@@ -1,9 +1,212 @@
-* {
-    background-color: #FFFFFF;
-    text-align: center;
+body {
     font-family: 'Roboto';
     padding: 0;
     margin: 0;
+}
+
+.header {
+    display: flex;
+    color: whitesmoke;
+    background-color: rgb(38, 38, 71);
+    align-items: center;
+    font-family: 'Roboto';
+    flex-direction: row;
+    padding: 0px 300px 0px 300px;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-logo img {
+    width: 80px;
+    height: auto;
+}
+
+.header-links {
+    margin-left: auto;
+}
+
+.header-links a {
+    flex-direction: row;
+    text-decoration: none;
+    color: #E5E7EB;
+    padding: 10px;
+    font-family: 'Roboto';
+}
+
+.intro {
+    display: flex;
+    color: whitesmoke;
+    background-color: rgb(38, 38, 71);
+    align-items: center;
+    font-family: 'Roboto';
+    flex-direction: row;
+    padding: 0px 300px 0px 300px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro-summary {
+    flex-direction: column;
+    margin-left: auto;
+    font-family: 'Roboto';
+    padding: 100px 200px 50px 0;
+}
+
+.intro-image {
+    margin-right: auto;
+}
+
+.intro-image img {
+    width: 500px;
+    height: auto;
+}
+
+.intro button {
+    background-color: rgb(0, 119, 255);
+    padding: 20px;
+    margin: 30px 0 0 0;
+    border-radius: 10px;
+}
+
+.intro a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.operas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 0px 300px 0px 300px;
+}
+
+.operas h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 100px 0 40px 0;
+}
+
+.operas div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.operas .operas-1 {
+    flex-direction: column;
+}
+
+.operas-1 img {
+    width: 225px;
+    border-radius: 10px;
+    border: 5px solid #70a0ff;
+}
+
+.operas .operas-2 {
+    flex-direction: column;
+}
+
+.operas-2 img {
+    width: 225px;
+    border-radius: 10px;
+    border: 5px solid #70a0ff;
+}
+
+.operas .operas-3 {
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.operas-3 img {
+    width: 225px;
+    border-radius: 8px;
+    border: 5px solid #70a0ff;
+}
+
+.operas .operas-4 {
+    flex-direction: column;
+}
+
+.operas-4 img {
+    width: 225px;
+    border-radius: 10px;
+    border: 5px solid #70a0ff;
+}
+
+.quotes {
+    display: flex;
+    color: black;
+    background-color: rgb(223, 223, 223);
+    flex-direction: column;
+    padding: 100px 500px 100px 500px;
+    margin: 100px 0px 100px 0px;
+}
+
+.quotes-top {
+    margin-right: auto;
+    font-style: italic;
+    font-size: 48px;
+}
+
+.quotes-bottom {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 50px 0 0 0;
+}
+
+.listen {
+    display: flex;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    padding: 20px 150px 20px 150px;
+    margin: 80px 300px 80px 300px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.listen button {
+    background-color: rgb(0, 119, 255);
+    border-radius: 10px;
+}
+
+.listen a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.listen-text {
+    margin-right: auto;
+}
+
+.listen-text h5 {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.listen-text p {
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.listen-button {
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: rgb(38, 38, 71);
+    text-align: center;
+    padding: 50px 300px 50px 300px;
 }
